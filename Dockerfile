@@ -1,4 +1,4 @@
-FROM maven as build_stage
+FROM maven AS build_stage
 RUN mkdir /app
 WORKDIR /app
 COPY . /app
